@@ -119,7 +119,7 @@ namespace Lab2CH
         public void PriceChange(double a)
         {
             double b = rubles + (double)kopeiki / 100;
-            if (b + a < 0)
+            if (b + a <= 0)
             {
                 kopeiki = 0;
                 rubles = 0;
